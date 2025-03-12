@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/event.css" />
+    <title>Dazzle and Delight</title>
+    <link rel="icon" href="photos/logo.jpg" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=LXGW+WenKai+TC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="head">
+      <a
+        href="index.html"
+        class="logo"
+        style="font-size: 24px; color: goldenrod"
+        >Dazzle And Delight</a
+      >
+      <nav class="navbar">
+        <a href="index.html" style="font-size: 20px">Home</a>
+        <a href="events.html" style="font-size: 20px">Events</a>
+        <a href="add_event.html" style="font-size: 20px">New Event</a>
+        <a href="location.html" style="font-size: 20px">Locations</a>
+        <a href="contact_us.html" style="font-size: 20px">Contact Us</a>
+        <a href="about_us.html" style="font-size: 20px">About Us</a>
+        <a href="feedback.html" style="font-size: 20px">Feedback</a>
+        <a href="login.html" style="font-size: 20px">Login</a>
+      </nav>
+      <div id="menu-bar"><i class="fas fa-bars"></i></div>
+    </header>
+
+    <section id="section-list" style="display: none">
+      <span id="close-menu-btn"
+        ><i class="fas fa-times" style="display: block"></i
+      ></span>
+      <ul>
+        <li><a href="index.html" style="font-size: 20px">Home</a></li>
+        <li><a href="events.html" style="font-size: 20px">Events</a></li>
+        <li><a href="add_event.html" style="font-size: 20px">New Event</a></li>
+        <li><a href="location.html" style="font-size: 20px">Locations</a></li>
+        <li>
+          <a href="contact_us.html" style="font-size: 20px">Contact Us</a>
+        </li>
+        <li><a href="about_us.html" style="font-size: 20px">About Us</a></li>
+        <li><a href="feedback.html" style="font-size: 20px">Feedback</a></li>
+        <li><a href="login.html" style="font-size: 20px">Login</a></li>
+      </ul>
+    </section>
+
+    <section class="main-container">
+      <div class="sidebar">
+        <form action="#">
+          <div class="sidebar-groups">
+            <h3 class="sg-title">Categories</h3>
+            <input
+              type="checkbox"
+              id="theatreAndArt"
+              name="theatreAndArt"
+              value="theatreAndArt"
+            />
+            <label for="theatreAndArt">Theatre and Art</label><br />
+            <input
+              type="checkbox"
+              id="pocketFriendly"
+              name="pocketFriendly"
+              value="pocketFriendly"
+            />
+            <label for="pocketFriendly">Pocket Friendly</label><br />
+            <input type="checkbox" id="music" name="music" value="music" />
+            <label for="music">Music</label><br />
+            <input type="checkbox" id="comedy" name="comedy" value="comedy" />
+            <label for="comedy">Comedy</label><br />
+            <input
+              type="checkbox"
+              id="courses"
+              name="courses"
+              value="courses"
+            />
+            <label for="courses">Courses</label><br />
+            <input
+              type="checkbox"
+              id="workshop"
+              name="workshop"
+              value="workshop"
+            />
+            <label for="workshop">Workshop</label><br />
+            <input
+              type="checkbox"
+              id="history"
+              name="history"
+              value="history"
+            />
+            <label for="history">History</label><br />
+            <input
+              type="checkbox"
+              id="documentary"
+              name="documentary"
+              value="documentary"
+            />
+            <label for="documentary">Documentary</label><br />
+            <input
+              type="checkbox"
+              id="cultural"
+              name="cultural"
+              value="cultural"
+            />
+            <label for="cultural">Cultural</label><br />
+            <input type="checkbox" id="game" name="game" value="game" />
+            <label for="game">wedding and other functions</label><br />
+          </div>
+          <div class="sidebar-groups">
+            <h3 class="sg-title">free booking</h3>
+            <input type="checkbox" id="free" name="free" value="free" />
+            <label for="free">Free</label><br />
+            <input type="checkbox" id="paid" name="paid" value="paid" />
+            <label for="paid">Paid</label><br />
+          </div>
+          <div class="sidebar-groups">
+            <h3 class="sg-title">Time</h3>
+            <input type="radio" id="morning" name="time" value="morning" />
+            <label for="morning">Morning</label><br />
+            <input type="radio" id="night" name="time" value="night" />
+            <label for="night">Night</label><br />
+          </div>
+          <div class="sidebar-groups">
+            <a href="#" class="btn-l btn">Apply Filters</a>
+          </div>
+        </form>
+      </div>
+      <div class="movies-container">
+        <div class="upcoming-img-box">
+          <img src="photos/ganesh.jpg" alt="" />
+          <p class="upcoming-title">Upcoming Event</p>
+          <div class="buttons">
+            <a href="#" class="btn">Festival decoration</a>
+            <a href="eve_info.html" class="btn-alt btn">Details</a>
+          </div>
+        </div>
+        <div class="current-movies">
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/deepa.jpg" alt="" />
+            </div>
+            <h3 class="movie-title">Event in college</h3>
+            <p class="screen-name">Location : Hubli</p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">Rs 15000</h2>
+                <a href="dj_eve_info.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >book Tickets</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/Mehendi.jpg" alt="" />
+            </div>
+            <h3 class="movie-title">Mehandi ceremony</h3>
+            <p class="screen-name">marrege package include </p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">Rs 70000</h2>
+                <a href="live_music.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >Buy Tickets</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/wedding.avif" alt="" />
+            </div>
+            <h3 class="movie-title">Wedding decoration</h3>
+            <p class="screen-name">one day booking</p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">Rs 2,50,000</h2>
+                <a href="rajkumar_play.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >Buy Tickets</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/birth.webp" alt="" />
+            </div>
+            <h3 class="movie-title">Birthday Party</h3>
+            <p class="screen-name">Any location</p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">Rs 68000</h2>
+                <a href="cooking_workshop.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >Buy hall</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/baby_shower.jpeg" alt="" />
+            </div>
+            <h3 class="movie-title">babby shower</h3>
+            <p class="screen-name">Location : Any city</p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">Rs 50000</h2>
+                <a href="music_party.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >Buy Tickets</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/event11.jpg" alt="" />
+            </div>
+            <h3 class="movie-title">Holi Party</h3>
+            <p class="screen-name">Location : any place in karnataka book know</p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">Rs 50000</h2>
+                <a href="holi_party.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >Buy slots</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/naming.jpg" alt="" />
+            </div>
+            <h3 class="movie-title">Naming ceremony</h3>
+            <p class="screen-name">Location : karnataka</p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">₹ 45000</h2>
+                <a href="play_free.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >pree bbooking</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/event13.jpg" alt="" />
+            </div>
+            <h3 class="movie-title">Game Night</h3>
+            <p class="screen-name">Location : Hasan</p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">Rs 500</h2>
+                <a href="game_night.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >Buy Tickets</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+          <div class="current-movie">
+            <div class="cm-img-box">
+              <img src="photos/event2.jpg" alt="" />
+            </div>
+            <h3 class="movie-title">Stand-up Comedy</h3>
+            <p class="screen-name">Location : Chitradurga</p>
+            <div class="booking">
+              <div class="price-details">
+                <h2 class="price">Rs 500</h2>
+                <a href="standup_comedy.html" class="btn-alt btn">Details</a>
+                <!-- Details button -->
+              </div>
+              <a href="#" class="btn" style="width: 100%; text-align: center"
+                >Buy Tickets</a
+              >
+              <!-- Buy Tickets button -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Designed by Meghana & Kulsum :)</p>
+    </footer>
+
+    <script src="js/navbar_menu.js"></script>
+  </body>
+</html>
